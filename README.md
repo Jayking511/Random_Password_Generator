@@ -1,5 +1,5 @@
 
-# Random-Password-Generator
+# Random_Password_Generator
 
 Password-Generator is a simple code used to generate complex and unique passwords which satisfy any website's password policy.
 
