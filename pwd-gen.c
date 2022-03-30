@@ -162,6 +162,11 @@ int main()
 	scanf("%s", &key);
 	printf("\n");
 	n=strlen(key);
+	if(n<5)
+	{
+		printf("Use a stronger key with minimum 5 characters length...!");
+		return 0;
+	}
 
 	*keyword=Keyword(website,key);
 	x=strlen(keyword);
